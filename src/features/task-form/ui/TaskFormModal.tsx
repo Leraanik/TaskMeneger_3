@@ -25,7 +25,7 @@ export const TaskFormModal = ({ isOpen, onClose, existingTask }: Props) => {
 
   const [task, setTask] = useState<Task>(
     existingTask ?? {
-      id: 0,
+      id: '0',
       title: '',
       description: '',
       category: 'Feature',
